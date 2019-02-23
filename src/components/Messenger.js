@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import io from 'socket.io-client'
 
 //this is the url in our own local machines
-const socketURL = "http://192.168.0.5:3000/"
+//connect to the server url
+const socketURL = "http://192.168.0.5:80"
 class Messenger extends Component {
 
     constructor(props) {

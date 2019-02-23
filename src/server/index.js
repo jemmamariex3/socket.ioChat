@@ -10,6 +10,6 @@ const SocketManager = require('./SocketManager')
 io.on('connection', SocketManager) //once connection is made, SocketManager file will be called
 
 //when the connection is made the terminal will print the following
-app.listen(PORT, () =>{
+app.listen(PORT, ()=>{
     console.log("Connected to port: " + PORT);
 })

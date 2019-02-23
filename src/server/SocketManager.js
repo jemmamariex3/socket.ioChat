@@ -5,6 +5,6 @@ const io = require('./index.js').io
 //this file individualizes what connection we have (indicated by unique socket ids from the browser)
 
 module.exports = function(socket){
-    console.log("Socket Id" + socket.id)
+    console.log("Socket Id:" + socket.id)
 }
 
