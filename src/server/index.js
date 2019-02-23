@@ -7,7 +7,8 @@ const PORT = process.env.PORT || 80
 
 const SocketManager = require('./SocketManager')
 
-io.on('connection', SocketManager) //once connection is made, SocketManager file will be called
+//once connection is made, SocketManager file will be called
+io.on('connection', SocketManager);
 
 //when the connection is made the terminal will print the following
 app.listen(PORT, ()=>{

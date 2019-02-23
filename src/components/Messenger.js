@@ -3,7 +3,7 @@ import io from 'socket.io-client'
 
 //this is the url in our own local machines
 //connect to the server url
-const socketURL = "http://192.168.0.5:80"
+const socketURL = "http://192.168.0.5:80";
 class Messenger extends Component {
 
     constructor(props) {
